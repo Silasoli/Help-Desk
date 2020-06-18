@@ -1,0 +1,133 @@
+.navbar{
+  background-color: #b33772;
+  color: white;
+  height: 50px;
+}
+.menu{
+  font-size: 20!important;
+  position: absolute;
+  left: 50%;
+  margin-top: 15px;
+  transform: translateX(-50%)
+}
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	border: none;
+	text-decoration: none;
+	outline: none;
+	box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Product Sans;
+    src: url('../font/Product-Sans-Regular.woff');
+}
+
+body {
+    font-family: Product Sans;
+    font-size: 13px;
+    background-color: #2C3A47;
+}
+
+#all, #all2 {
+	height: 100vh;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#all2 {
+	justify-content: flex-start;
+	flex-direction: column;
+	padding-top: 30px;
+}
+
+.box {
+	background-color: #B33772;
+}
+
+.box3 {
+	width: 700px;
+	height: auto;
+	border-radius: 10px;
+	padding: 20px;
+  margin-bottom: 40px;
+}
+
+
+
+.light,
+.dark {
+	font-weight: bold;
+}
+
+.light {
+  color: white;
+  font-size: 13px !important;
+}
+
+.dark {
+	color: #181818;
+}
+
+.dados {
+  font-size: 1.1em;
+}
+
+.ocorrencia {
+  font-weight: lighter;
+  margin-left: 20px;
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+
+label {
+  margin-left: 0px;
+  font-size: 16px !important;
+}
+textarea {
+	height: 80px;
+	padding-top: 3px;
+	resize: none;
+}
+
+input,
+select,
+textarea,
+button {
+	font-family: Product Sans;
+	font-weight: bold;
+	color: #181818;
+}
+button {
+	background-color: #FFD966;
+	font-size: 1.3em;
+	width: 100px;
+	height: 40px;
+	margin-top: -5px;
+	border-radius: 90px;
+	float: right;
+}
+button.voltar {
+	position: absolute;
+	margin: -42px 0 0 20px;
+  float: left;
+  width: 90px;
+  height: 35px;
+}
+
+button:hover {
+	background-color: #FFE699;
+}
+.new{
+	color: white;
+}
+.deletar {
+	position: absolute;
+	margin: -42px 0 0 20px;
+  float: left;
+  width: 90px;
+	height: 35px;
+}
